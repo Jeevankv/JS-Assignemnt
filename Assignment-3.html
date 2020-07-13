@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DateTime</title>
+</head>
+<body>
+    <script>
+     var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth() + 1 
+    var yy = today.getFullYear();
+   
+    document.write("mm-dd-yyyy <br>");
+    today = mm + '-' + dd + '-' + yy;
+    document.write(today + "<br><br>");
+    document.write("mm/dd/yyyy <br>");
+    today = mm + '/' + dd + '/' + yy;
+    document.write(today + "<br><br>");
+    document.write("dd-mm-yyyy <br>");
+    today = dd + '-' + mm + '-' + yy;
+    document.write(today + "<br><br>");
+    document.write("dd/mm/yyyy <br>");
+    today = dd + '/' + mm + '/' + yy;
+    document.write(today);
+    </script>
+    
+</body>
+</html>
