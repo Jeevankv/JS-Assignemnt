@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var let const</title>
+</head>
+<body>
+    <h1>var, let, const</h1>
+    <p>var and let are both used for variable declaration in javascript but the difference between them is that var is function scoped and let is block scoped.</p><br>
+    
+    <script>
+
+         var a =10;
+         {
+             let a = 20; // goes out of scope after this block
+             console.log(a); 
+         }
+
+         console.log(a); 
+    </script>
+
+    <p>Whereas const variable is immutable i.e value cannot be changed but we can add items to it </p><br>
+    
+    <script>
+        const x = 10;
+        console.log(10);
+        x = 15;  // results an Error 
+    </script>
+
+    <script>
+        const language = ["c","c++","java"];
+        language.push("python","javascript"); // But we can add new items.
+        console.log(language); 
+    </script>
+
+  
+</body>
+</html>

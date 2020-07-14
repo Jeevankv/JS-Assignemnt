@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console Methods</title>
+    <h1>Console</h1>
+</head>
+<body>
+    <script>
+        console.clear(); //Clear all messages in the console
+
+        console.log("Used for printing output in console"); 
+
+        language = ["C","C++","java","python","javascript"];
+        console.table(language);  // Console.table -> is used to print the object or an array in the table form in console
+
+        console.error("Its an Error "); //prints an message as an error in the console
+
+        console.warn("Its a warning"); //prints a message as a warning in the console
+
+        console.time();  // The console.time()  starts a timer in the console view
+        for (i = 1; i <= 10; i++) {
+             console.log(i);
+            }
+        console.timeEnd(); // The console.timeEnd() method to end the timer and display the result in the console.
+        
+        console.info("Hello world!");  //The console.info() method writes a message to the console.
+
+        for (i = 0; i < 10; i++) {
+             console.count(); // Write to the console the number of time the console.count() is called inside the loop
+            }
+    </script>
+    
+</body>
+</html>
