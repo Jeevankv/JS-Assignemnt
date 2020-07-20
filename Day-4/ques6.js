@@ -1,10 +1,8 @@
-
-let Num;
-let condition;
-do {
-    Num = prompt("Enter a number greater the 100");
-    condition =( Num == null)?true: (Num.trim().length == 0) ? true : (parseInt(Num) <= 100) ? true : false
-}
-while (condition);
-
- console.log(`Validation Completed \nNumber=${Num}`);
+let condition = true;
+while(condition){
+    let num = Number(prompt("Enter the number"))
+    condition = (num<101) ? true  : false
+    if(condition)
+    console.log(`Number is Less: ${num}`)
+    else
+    console.log(`Numbe: ${num}`)
