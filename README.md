@@ -1,2 +1,2 @@
-# JS-Assignemnt-1
+# JS-Assignment-1
 LetsUpgrade JS Assignment
